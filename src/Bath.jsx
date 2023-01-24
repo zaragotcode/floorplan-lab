@@ -1,11 +1,9 @@
 
 
-
-
 function Bath(props) {
   return (
     <div>
-
+      
     </div>
   )
 }

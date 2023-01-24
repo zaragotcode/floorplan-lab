@@ -1,10 +1,11 @@
 import './App.css';
+import FloorPlan from './FloorPlan';
 import Kitchen from './Kitchen';
 
 function App() {
   return (
-    <div className="App">
-
+    <div>
+      <FloorPlan/>
     </div>
   );
 }
