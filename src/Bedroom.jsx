@@ -1,10 +1,9 @@
 
 
 function Bedroom(props) {
-  const bedNum = [1, 2]
   return (
     <div>
-      <h2>Bedroom</h2>
+      <h2>Bedroom {props.bedNum}</h2>
     </div>
   )
 }

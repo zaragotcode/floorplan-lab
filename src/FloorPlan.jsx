@@ -4,12 +4,13 @@ import Bedroom from "./Bedroom"
 import Bath from "./Bath"
 
 function FloorPlan(props) {
-  const bedNum = ["1", "2"]
   
   return (
     <>
-      <Bedroom bedroom={[bedNum]}/>
+      <Bedroom bedNum={1}/>
       <Kitchen />
+      <Bedroom bedNum={2}/>
+      <Bedroom bedNum={3}/>
       <LivingRoom />
     </>
   )
